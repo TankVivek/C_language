@@ -15,18 +15,11 @@ body {
   text-underline-offset: 8px;
 }
 .color-nav {
-    /* height: auto; */
-    /* width: auto; */
   background-color: rgb(15, 0, 24);
   color: white;
 }
 
 .search {
-  /* position: absolute; */
-  /* left: 750px; */
-  /* top: 25px; */
-  /* margin-top: 15px; */
-  /* margin-right: 15px; */
   height: 30px;
   width: 200px;
   border-radius: 5px;
@@ -36,13 +29,7 @@ body {
   z-index: 5;
 }
 
-
 .login {
-  /* position: absolute; */
-  /* left: 1070px; */
-  /* top: 25px; */
-  /* margin-top: 15px; */
-  /* margin-right: 10px; */
   margin-left: 5px;
   height: 30px;
   width: 90px;
@@ -55,11 +42,6 @@ body {
   z-index: 2;
 }
 .buy {
-  /* position: absolute; */
-  /* left: 1175px; */
-  /* top: 25px; */
-  /* margin-top: 15px; */
-  /* margin-right: 10px; */
   margin-left: 5px;
   border-radius: 6px;
   border: rgb(138, 50, 205);
