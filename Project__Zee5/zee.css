@@ -1,7 +1,7 @@
 body {
   margin: 0px;
   padding: 0px;
-  background-color: rgb(13, 0, 21);
+  background-color: rgb(15, 0, 24);
 }
 .logo {
   position: relative;
@@ -17,7 +17,7 @@ body {
 .color-nav {
     /* height: auto; */
     /* width: auto; */
-  background-color: rgb(13, 0, 21);
+  background-color: rgb(15, 0, 24);
   color: white;
 }
 
@@ -35,6 +35,7 @@ body {
   color: white;
   z-index: 5;
 }
+
 
 .login {
   /* position: absolute; */
@@ -89,22 +90,22 @@ body {
 }
 .nav1 {
   position: absolute;
-  left: 150px;
+  left: 140px;
   top: 25px;
 }
 .nav2 {
   position: absolute;
-  left: 220px;
+  left: 210px;
   top: 25px;
 }
 .nav3 {
   position: absolute;
-  left: 310px;
+  left: 300px;
   top: 25px;
 }
 .nav4 {
   position: absolute;
-  left: 390px;
+  left: 380px;
   top: 25px;
 }
 .nav5 {
@@ -120,8 +121,8 @@ body {
 .slde {
     background-color: black;
     color: whitesmoke;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-top: 10px;
     height: 550px;
   }
@@ -132,17 +133,22 @@ body {
 .b1 {
     position: relative;
     display: flex;
-    height: 330px;
-    width: 280px;
+    width: auto;
+    height: auto;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 10px;
     left: 20px;
   }
   .m-1{
     border-radius: 5px;
   }
-  .m-1:hover{
-    scale: 1px;
-    scale: 107%;
+  
+  .slider-container{
+    overflow:  scroll ; 
+    
   }
   
+  .slider-image {
+    flex: 0 0 100%;
+
+  }
